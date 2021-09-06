@@ -1,0 +1,9 @@
+.listing {
+  margin: 30rem 10rem;
+  color: var --gamma;
+}
+
+.listing__card {
+  border: 1;
+}
+/*# sourceMappingURL=listing.css.map */

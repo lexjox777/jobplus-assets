@@ -1,6 +1,38 @@
 .form {
+
+  &__checkbox{
+    margin-top: 5rem;
+  }
+  &__textarea{
+    width: 100%;
+    height: 20rem;
+  }
+
+  &__select{
+    width:100%;
+    height:40rem;
+    font-size: 16rem;
+    color: var(--alpha);
+  }
+  
+  &--page{
+    padding: 10rem;
+
+    footer{
+      font-size: 14rem;
+      text-align: center;
+      margin-top: 10rem;
+      a {
+        text-decoration: underline;
+        color: var(--beta);
+      }
+    }
+  }
   &__group {
     margin-top: 8rem;
+
+    &--page{margin-bottom:20rem;
+    }
   }
 
   &__label {
@@ -31,6 +63,14 @@
   @include respond-to('small') {
     display: flex;
     align-items: flex-end;
+
+    &--page{
+      max-width: 500rem;
+      background-color: var(--light);
+      display: block;
+      padding: 10rem 10rem 10rem 20rem;
+      margin:20rem auto ;
+    }
     
     &__group {
       margin-right: 10rem;

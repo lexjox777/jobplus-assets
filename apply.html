@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>JOBPLUS</title>
+</head>
+
+<body>
+  <section>
+    <nav class="nav">
+      <input type="checkbox" class="nav__toggle" id="hamburger" hidden />
+      <ul class="nav__lblock">
+        <li class="nav__hamburger">
+          <label for="hamburger"><img src="images/hamburger.svg" alt=""></label>
+        </li>
+        <li class="nav__logo"><a href="index.html">JOBPLUS</a></li>
+      </ul>
+
+      <ul class="nav__icons">
+        <li><a href="listings.html"><img src="images/magnify.svg" alt=""></a></li>
+        <li><a href="notification.html"><img src="images/notify-active.svg" alt=""></a></li>
+        <li><a href="saved_jobs.html">
+            <img src="images/saved.svg" alt="">
+            <span class="nav__savedcount">1</span>
+          </a>
+        </li>
+        <li><a href="profile.html"><img src="images/profile.svg" alt=""></a></li>
+        <li><a href="login.html"><img src="images/exit.svg" alt=""></a></li>
+      </ul>
+
+      <ul class="nav__dropl">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="listings.html">
+          <li>Job listing</li>
+        </a>
+        <a href="applications.html">
+          <li>Job applications</li>
+        </a>
+      </ul>
+    </nav>
+
+
+    <div class="container">
+      <div class="listing">
+        <div class="filter">
+          <div class="filter__links">
+            <h1>Browse by sector</h1>
+            <ul>
+              <li>Technology <span>(14)</span></li>
+              <li>Engineering <span>(200)</span></li>
+              <li>Health <span>(13)</span></li>
+            </ul>
+          </div>
+
+          <div class="filter__links">
+            <h1>Browse by location</h1>
+            <ul>
+              <li>Jobs in London <span>(14)</span></li>
+              <li>Jobs in West Midlands <span>(200)</span></li>
+              <li>Jobs in Yorkshire <span>(13)</span></li>
+            </ul>
+          </div>
+        </div>
+        <section>
+         <div class="listing__card listing__card--apply">
+            <header class="listing__header">
+              <h1 class="listing__title">Regulatory Affairs Senior Manager</h1>
+              <img class="listing__saved" src="images/star-saved.svg" alt="">
+              <p class="listing__company">Posted by <span>Tee Media</span></p>
+            </header>
+
+            <ul class="listing__items">
+              <li><img src="images/money.svg" alt=""><b>Salary negotiable</b></li>
+              <li><img src="images/location.svg" alt="">Heyes, <b>Uxbridge</b></li>
+              <li><img src="images/timer.svg" alt="">Contract, full-time</li>
+            </ul>
+
+            <div class="form">
+              <input class="form__btn" type="submit" value="Apply now">
+            </div>
+          </div>
+
+          <div class="listing__more">
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed hic impedit vitae delectus magni amet consectetur sunt provident voluptas maiores, autem cumque, ducimus illum architecto veniam, cupiditate adipisci quasi.
+            </p>
+            <h1>Required skills</h1>
+            <ul class="listing__skills">
+                <li>salesforce</li>
+                <li>SFDC</li>
+                <li>Development</li>
+                <li>Development</li>
+                <li>Development</li>
+            </ul>
+          </div>
+          <div class="form">
+            <input class="form__btn" type="submit" value="Apply now">
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="cookie">
+      <p>
+        Jobplus uses cookies. By continuing you are agreeing to
+        our use of cookies. <a href="">Learn more</a>.
+      </p>
+      <img src="images/cookie-close.svg" alt="">
+    </div>
+  </section>
+
+  <footer class="footer">COPYRIGHT &copy; jobplus 2021</footer>
+</body>
+
+</html>

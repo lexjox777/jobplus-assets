@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACN,MAAM,EAAE,WAAW;EACnB,KAAK,EAAE,GAAG,CAAC,OAAS;CAMrB;;AAJE,AAAD,cAAO,CAAA;EACL,MAAM,EAAE,CACV;CAAC",
-    "sources": [
-        "../components/listing.scss"
-    ],
-    "names": [],
-    "file": "listing.css"
-}

@@ -1,24 +1,25 @@
 // VARIABLES
-@import "variables/colours";
+@import "variables/_colours.scss";
 
 //UTILITIES
-@import "utilities/fonts";
+@import "utilities/_fonts.scss";
 
 // RESETS
-@import "resets/normalize";
-@import "resets/reset.local";
-@import "resets/responsive";
-@import "resets/typography";
-@import "resets/placeholder";
+@import "resets/_normalize.scss";
+@import "resets/_reset.local.scss";
+@import "resets/_responsive.scss";
+@import "resets/_typography.scss";
+@import "resets/_placeholder.scss";
 
 // COMPONENTS
-@import "components/nav";
-@import "components/hero";
-@import "components/form";
-@import "components/sector";
-@import "components/container";
-@import "components/cookie";
-@import "components/footer";
-@import "components/body";
-@import "components/listing";
-@import "components/filter";
+@import "components/_nav.scss";
+@import "components/_hero.scss";
+@import "components/_form.scss";
+@import "components/_sector.scss";
+@import "components/_container.scss";
+@import "components/_cookie.scss";
+@import "components/_footer.scss";
+@import "components/_body.scss";
+@import "components/_listing.scss";
+@import "components/_filter.scss";
+@import "components/_paginate.scss";

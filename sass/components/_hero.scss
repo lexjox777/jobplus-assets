@@ -17,6 +17,12 @@
     margin-bottom: 15rem;
   }
 
+  h2 {
+    font-size: 19rem;
+    color: var(--gamma);
+
+  }
+
   @include respond-to('small') {
     &__wrap {
       max-width: 895rem;
